@@ -1,0 +1,371 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xml:lang="en-US">
+    <title>Ruby ❤️</title>
+    <desc>Sample Code, written by Chris Patterson</desc>
+    <style>
+        svg {
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+          font-size: 18pt;
+          fill: #EDEDED;
+        }
+
+        text.code {
+          font-family: Menlo, Monaco, "Courier New", monospace;
+          opacity: 0.5;
+        }
+
+        .syntax--comment {
+        	fill: #8a8a8a;
+        }
+
+        .syntax--entity {
+        	fill: #FFD2A7;
+        }
+
+        .syntax--entity.syntax--name.syntax--type {
+        	text-decoration: underline;
+        	fill: #FFFFB6;
+        }
+
+        .syntax--entity.syntax--other.syntax--inherited-class {
+        	fill: #9B5C2E;
+        }
+
+        .syntax--keyword {
+        	fill: #96CBFE;
+        }
+
+        .syntax--keyword.syntax--control {
+        	fill: #96CBFE;
+        }
+
+        .syntax--keyword.syntax--operator {
+        	fill: #EDEDED;
+        }
+
+        .syntax--storage {
+        	fill: #CFCB90;
+        }
+
+        .syntax--storage.syntax--modifier {
+        	fill: #96CBFE;
+        }
+
+        .syntax--constant {
+        	fill: #99CC99;
+        }
+
+        .syntax--constant.syntax--numeric {
+        	fill: #FF73FD;
+        }
+
+        .syntax--variable {
+        	fill: #C6C5FE;
+        }
+
+        .syntax--invalid.syntax--deprecated {
+        	text-decoration: underline;
+        	fill: #FD5FF1;
+        }
+
+        .syntax--invalid.syntax--illegal {
+        	fill: #FD5FF1;
+        	background-color: rgba(86, 45, 86, 0.75);
+        }
+
+        .syntax--string .syntax--source,
+        .syntax--string .syntax--meta.syntax--embedded.syntax--line {
+        	fill: #EDEDED;
+        }
+
+        .syntax--string .syntax--punctuation.syntax--section.syntax--embedded {
+        	fill: #00A0A0;
+        }
+
+        .syntax--string .syntax--punctuation.syntax--section.syntax--embedded .syntax--source {
+        	fill: #00A0A0;
+        }
+
+        .syntax--string {
+        	fill: #A8FF60;
+        }
+
+        .syntax--string .syntax--constant {
+        	fill: #00A0A0;
+        }
+
+        .syntax--string.syntax--regexp {
+        	fill: #E9C062;
+        }
+
+        .syntax--string.syntax--regexp .syntax--constant.syntax--character.syntax--escape,
+        .syntax--string.syntax--regexp .syntax--source.syntax--ruby.syntax--embedded,
+        .syntax--string.syntax--regexp .syntax--string.syntax--regexp.syntax--arbitrary-repetition {
+        	fill: #FF8000;
+        }
+
+        .syntax--string.syntax--regexp.syntax--group {
+        	fill: #C6A24F;
+        	background-color: rgba(255, 255, 255, 0.06);
+        }
+
+        .syntax--string.syntax--regexp.syntax--character-class {
+        	fill: #B18A3D;
+        }
+
+        .syntax--string .syntax--variable {
+        	fill: #8A9A95;
+        }
+
+        .syntax--support {
+        	fill: #FFFFB6;
+        }
+
+        .syntax--support.syntax--function {
+        	fill: #DAD085;
+        }
+
+        .syntax--support.syntax--constant {
+        	fill: #FFD2A7;
+        }
+
+        .syntax--support.syntax--type.syntax--property-name.syntax--css {
+        	fill: #EDEDED;
+        }
+
+        .syntax--source .syntax--entity.syntax--name.syntax--tag,
+        .syntax--source .syntax--punctuation.syntax--tag {
+        	fill: #96CBFE;
+        }
+
+        .syntax--source .syntax--entity.syntax--other.syntax--attribute-name {
+        	fill: #FF73FD;
+        }
+
+        .syntax--entity.syntax--other.syntax--attribute-name {
+        	fill: #FF73FD;
+        }
+
+        .syntax--entity.syntax--name.syntax--tag.syntax--namespace,
+        .syntax--entity.syntax--other.syntax--attribute-name.syntax--namespace {
+        	fill: #E18964;
+        }
+
+        .syntax--meta.syntax--preprocessor.syntax--c {
+        	fill: #8996A8;
+        }
+
+        .syntax--meta.syntax--preprocessor.syntax--c .syntax--keyword {
+        	fill: #AFC4DB;
+        }
+
+        .syntax--meta.syntax--cast {
+        	fill: #676767;
+        }
+
+        .syntax--meta.syntax--sgml.syntax--html .syntax--meta.syntax--doctype,
+        .syntax--meta.syntax--sgml.syntax--html .syntax--meta.syntax--doctype .syntax--entity,
+        .syntax--meta.syntax--sgml.syntax--html .syntax--meta.syntax--doctype .syntax--string,
+        .syntax--meta.syntax--xml-processing,
+        .syntax--meta.syntax--xml-processing .syntax--entity,
+        .syntax--meta.syntax--xml-processing .syntax--string {
+        	fill: #8a8a8a;
+        }
+
+        .syntax--meta.syntax--tag .syntax--entity,
+        .syntax--meta.syntax--tag > .syntax--punctuation,
+        .syntax--meta.syntax--tag.syntax--inline .syntax--entity {
+        	fill: #FF73FD;
+        }
+
+        .syntax--meta.syntax--tag .syntax--name,
+        .syntax--meta.syntax--tag.syntax--inline .syntax--name,
+        .syntax--meta.syntax--tag > .syntax--punctuation {
+        	fill: #96CBFE;
+        }
+
+        .syntax--meta.syntax--selector.syntax--css .syntax--entity.syntax--name.syntax--tag {
+        	text-decoration: underline;
+        	fill: #96CBFE;
+        }
+
+        .syntax--meta.syntax--selector.syntax--css .syntax--entity.syntax--other.syntax--attribute-name.syntax--tag.syntax--pseudo-class {
+        	fill: #8F9D6A;
+        }
+
+        .syntax--meta.syntax--selector.syntax--css .syntax--entity.syntax--other.syntax--attribute-name.syntax--id {
+        	fill: #8B98AB;
+        }
+
+        .syntax--meta.syntax--selector.syntax--css .syntax--entity.syntax--other.syntax--attribute-name.syntax--class {
+        	fill: #62B1FE;
+        }
+
+        .syntax--meta.syntax--property-group .syntax--support.syntax--constant.syntax--property-value.syntax--css,
+        .syntax--meta.syntax--property-value .syntax--support.syntax--constant.syntax--property-value.syntax--css {
+        	fill: #F9EE98;
+        }
+
+        .syntax--meta.syntax--preprocessor.syntax--at-rule .syntax--keyword.syntax--control.syntax--at-rule {
+        	fill: #8693A5;
+        }
+
+        .syntax--meta.syntax--property-value .syntax--support.syntax--constant.syntax--named-color.syntax--css,
+        .syntax--meta.syntax--property-value .syntax--constant {
+        	fill: #87C38A;
+        }
+
+        .syntax--meta.syntax--constructor.syntax--argument.syntax--css {
+        	fill: #8F9D6A;
+        }
+
+        .syntax--meta.syntax--diff,
+        .syntax--meta.syntax--diff.syntax--header {
+        	fill: #F8F8F8;
+        	background-color: #0E2231;
+        }
+
+        .syntax--meta.syntax--separator {
+        	fill: #60A633;
+        	background-color: #242424;
+        }
+
+        .syntax--meta.syntax--line.syntax--entry.syntax--logfile,
+        .syntax--meta.syntax--line.syntax--exit.syntax--logfile {
+        	background-color: rgba(238, 238, 238, 0.16);
+        }
+
+        .syntax--meta.syntax--line.syntax--error.syntax--logfile {
+        	background-color: #751012;
+        }
+
+        .syntax--source.syntax--gfm {
+        	fill: #999;
+        }
+
+        .syntax--gfm .syntax--markup.syntax--heading {
+        	fill: #eee;
+        }
+
+        .syntax--gfm .syntax--link {
+        	fill: #555;
+        }
+
+        .syntax--gfm .syntax--variable.syntax--list,
+        .syntax--gfm .syntax--support.syntax--quote {
+        	fill: #555;
+        }
+
+        .syntax--gfm .syntax--link .syntax--entity {
+        	fill: #ddd;
+        }
+
+        .syntax--gfm .syntax--raw {
+        	fill: #aaa;
+        }
+
+        .syntax--markdown .syntax--paragraph {
+        	fill: #999;
+        }
+
+        .syntax--markdown .syntax--heading {
+        	fill: #eee;
+        }
+
+        .syntax--markdown .syntax--raw {
+        	fill: #aaa;
+        }
+
+        .syntax--markdown .syntax--link {
+        	fill: #555;
+        }
+
+        .syntax--markdown .syntax--link .syntax--string {
+        	fill: #555;
+        }
+
+        .syntax--markdown .syntax--link .syntax--string.syntax--title {
+        	fill: #ddd;
+        }
+    </style>
+    <rect fill="#3d3d3d" width="100%" height="100%" />
+    <text class="code" x="0" y="0" transform="matrix(1.00,-0.07,0.57,0.96,0,0)" xml:space="preserve">
+      <animate attributeType="XML" attributeName="y"
+      values="0;-1700;0" dur="2400s" repeatCount="indefinite"/>
+      <tspan dy="1.5em" x="10" class="syntax--comment"># frozen_string_literal: true</tspan>
+      <tspan dy="1.0em" x="10">​</tspan>
+      <tspan dy="1.5em" x="10"><tspan class="syntax--keyword">module</tspan> <tspan class="syntax--entity syntax--name syntax--type">SearchableConcern</tspan></tspan>
+      <tspan dy="1.5em" x="10">  <tspan class="syntax--support syntax--constant">extend</tspan> <tspan class="syntax--entity syntax--name syntax--type">ActiveSupport::Concern</tspan></tspan>
+      <tspan dy="1.5em" x="10"><tspan dy="1.5em" x="10">​</tspan></tspan>
+      <tspan dy="1.5em" x="10">  <tspan class="syntax--variable">SEARCHABLE_FIELD_GROUPS</tspan> = %i[</tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--constant">boolean_search_fields</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--constant">date_search_fields</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--constant">enum_search_fields</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--constant">fulltext_search_fields</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--constant">join_search_fields</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--constant">other_search_fields</tspan></tspan>
+      <tspan dy="1.5em" x="10">  ].<tspan class="syntax--support syntax--constant">freeze</tspan></tspan>
+      <tspan dy="1.5em" x="10"><tspan dy="1.5em" x="10">​</tspan></tspan>
+      <tspan dy="1.5em" x="10">  <tspan class="syntax--support syntax--constant">included</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">def</tspan> <tspan class="syntax--variable">self</tspan>.<tspan class="syntax--support syntax--constant">boolean_attributes</tspan>(attributes = [])</tspan>
+      <tspan dy="1.5em" x="10">      singleton_class.<tspan class="syntax--support syntax--constant">instance_eval</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">        <tspan class="syntax--support syntax--constant">define_method</tspan>(<tspan class="syntax--constant">:boolean_search_fields</tspan>) <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">          attributes</tspan>
+      <tspan dy="1.5em" x="10">        <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">      <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10"><tspan dy="1.5em" x="10">​</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">def</tspan> <tspan class="syntax--variable">self</tspan>.<tspan class="syntax--support syntax--constant">date_attributes</tspan>(attributes = [])</tspan>
+      <tspan dy="1.5em" x="10">      singleton_class.<tspan class="syntax--support syntax--constant">instance_eval</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">        <tspan class="syntax--support syntax--constant">define_method</tspan>(<tspan class="syntax--constant">:date_search_fields</tspan>) <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">          attributes</tspan>
+      <tspan dy="1.5em" x="10">        <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">      <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10"><tspan dy="1.5em" x="10">​</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">def</tspan> <tspan class="syntax--variable">self</tspan>.<tspan class="syntax--support syntax--constant">enum_attributes</tspan>(attributes = [])</tspan>
+      <tspan dy="1.5em" x="10">      singleton_class.<tspan class="syntax--support syntax--constant">instance_eval</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">        <tspan class="syntax--support syntax--constant">define_method</tspan>(<tspan class="syntax--constant">:enum_search_fields</tspan>) <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">          attributes</tspan>
+      <tspan dy="1.5em" x="10">        <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">      <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10"><tspan dy="1.5em" x="10">​</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">def</tspan> <tspan class="syntax--variable">self</tspan>.<tspan class="syntax--support syntax--constant">fulltext_attributes</tspan>(attributes = [])</tspan>
+      <tspan dy="1.5em" x="10">      singleton_class.<tspan class="syntax--support syntax--constant">instance_eval</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">        <tspan class="syntax--support syntax--constant">define_method</tspan>(<tspan class="syntax--constant">:fulltext_search_fields</tspan>) <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">          attributes</tspan>
+      <tspan dy="1.5em" x="10">        <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">      <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10"><tspan dy="1.5em" x="10">​</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">def</tspan> <tspan class="syntax--variable">self</tspan>.<tspan class="syntax--support syntax--constant">join_attributes</tspan>(attributes = [])</tspan>
+      <tspan dy="1.5em" x="10">      singleton_class.<tspan class="syntax--support syntax--constant">instance_eval</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">        <tspan class="syntax--support syntax--constant">define_method</tspan>(<tspan class="syntax--constant">:join_search_fields</tspan>) <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">          attributes</tspan>
+      <tspan dy="1.5em" x="10">        <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">      <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10"><tspan dy="1.5em" x="10">​</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">def</tspan> <tspan class="syntax--variable">self</tspan>.<tspan class="syntax--support syntax--constant">other_attributes</tspan>(attributes = [])</tspan>
+      <tspan dy="1.5em" x="10">      singleton_class.<tspan class="syntax--support syntax--constant">instance_eval</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">        <tspan class="syntax--support syntax--constant">define_method</tspan>(<tspan class="syntax--constant">:other_search_fields</tspan>) <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">          attributes</tspan>
+      <tspan dy="1.5em" x="10">        <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">      <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10"><tspan dy="1.5em" x="10">​</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--comment"># Add <tspan class="syntax--keyword">def</tspan>ault accessors</tspan></tspan>
+      <tspan dy="1.5em" x="10">    SEARCHABLE_FIELD_GROUPS.<tspan class="syntax--support syntax--constant">each</tspan> <tspan class="syntax--keyword">do</tspan> |field_group|</tspan>
+      <tspan dy="1.5em" x="10">      next if <tspan class="syntax--support syntax--constant">respond_to?</tspan> field_group</tspan>
+      <tspan dy="1.5em" x="10"><tspan dy="1.5em" x="10">​</tspan></tspan>
+      <tspan dy="1.5em" x="10">      singleton_class.<tspan class="syntax--support syntax--constant"><tspan class="syntax--support syntax--constant">instance_eval</tspan></tspan> <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">        <tspan class="syntax--support syntax--constant"><tspan class="syntax--support syntax--constant">define_method</tspan>(field_group)</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">          []</tspan>
+      <tspan dy="1.5em" x="10">        <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">      <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">  <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">end</tspan>
+    </text>
+</svg>
