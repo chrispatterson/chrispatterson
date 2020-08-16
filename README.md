@@ -1,4 +1,4 @@
-<img src="./assets/me.png" alt="A collection of pixels representing Chris Patterson" width="200" align="right" />
+<img src="https://raw.githubusercontent.com/chrispatterson/chrispatterson/master/assets/me.png" alt="A collection of pixels representing Chris Patterson" width="200" align="right" />
 
 **I'm Chris Patterson 🧑‍💻**
 
