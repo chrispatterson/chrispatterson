@@ -6,7 +6,7 @@
         svg {
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
           font-size: 18pt;
-          fill: #EDEDED;
+          fill: #ededed;
         }
 
         text.code {
@@ -19,144 +19,144 @@
         }
 
         .syntax--entity {
-        	fill: #FFD2A7;
+        	fill: #ffd2a7;
         }
 
         .syntax--entity.syntax--name.syntax--type {
         	text-decoration: underline;
-        	fill: #FFFFB6;
+        	fill: #ffffb6;
         }
 
         .syntax--entity.syntax--other.syntax--inherited-class {
-        	fill: #9B5C2E;
+        	fill: #9b5c2e;
         }
 
         .syntax--keyword {
-        	fill: #96CBFE;
+        	fill: #96cbfe;
         }
 
         .syntax--keyword.syntax--control {
-        	fill: #96CBFE;
+        	fill: #96cbfe;
         }
 
         .syntax--keyword.syntax--operator {
-        	fill: #EDEDED;
+        	fill: #ededed;
         }
 
         .syntax--storage {
-        	fill: #CFCB90;
+        	fill: #cfcb90;
         }
 
         .syntax--storage.syntax--modifier {
-        	fill: #96CBFE;
+        	fill: #96cbfe;
         }
 
         .syntax--constant {
-        	fill: #99CC99;
+        	fill: #99cc99;
         }
 
         .syntax--constant.syntax--numeric {
-        	fill: #FF73FD;
+        	fill: #ff73fd;
         }
 
         .syntax--variable {
-        	fill: #C6C5FE;
+        	fill: #c6c5fe;
         }
 
         .syntax--invalid.syntax--deprecated {
         	text-decoration: underline;
-        	fill: #FD5FF1;
+        	fill: #fd5ff1;
         }
 
         .syntax--invalid.syntax--illegal {
-        	fill: #FD5FF1;
+        	fill: #fd5ff1;
         	background-color: rgba(86, 45, 86, 0.75);
         }
 
         .syntax--string .syntax--source,
         .syntax--string .syntax--meta.syntax--embedded.syntax--line {
-        	fill: #EDEDED;
+        	fill: #ededed;
         }
 
         .syntax--string .syntax--punctuation.syntax--section.syntax--embedded {
-        	fill: #00A0A0;
+        	fill: #00a0a0;
         }
 
         .syntax--string .syntax--punctuation.syntax--section.syntax--embedded .syntax--source {
-        	fill: #00A0A0;
+        	fill: #00a0a0;
         }
 
         .syntax--string {
-        	fill: #A8FF60;
+        	fill: #a8ff60;
         }
 
         .syntax--string .syntax--constant {
-        	fill: #00A0A0;
+        	fill: #00a0a0;
         }
 
         .syntax--string.syntax--regexp {
-        	fill: #E9C062;
+        	fill: #e9c062;
         }
 
         .syntax--string.syntax--regexp .syntax--constant.syntax--character.syntax--escape,
         .syntax--string.syntax--regexp .syntax--source.syntax--ruby.syntax--embedded,
         .syntax--string.syntax--regexp .syntax--string.syntax--regexp.syntax--arbitrary-repetition {
-        	fill: #FF8000;
+        	fill: #ff8000;
         }
 
         .syntax--string.syntax--regexp.syntax--group {
-        	fill: #C6A24F;
+        	fill: #c6a24f;
         	background-color: rgba(255, 255, 255, 0.06);
         }
 
         .syntax--string.syntax--regexp.syntax--character-class {
-        	fill: #B18A3D;
+        	fill: #b18a3d;
         }
 
         .syntax--string .syntax--variable {
-        	fill: #8A9A95;
+        	fill: #8a9a95;
         }
 
         .syntax--support {
-        	fill: #FFFFB6;
+        	fill: #ffffb6;
         }
 
         .syntax--support.syntax--function {
-        	fill: #DAD085;
+        	fill: #dad085;
         }
 
         .syntax--support.syntax--constant {
-        	fill: #FFD2A7;
+        	fill: #ffd2a7;
         }
 
         .syntax--support.syntax--type.syntax--property-name.syntax--css {
-        	fill: #EDEDED;
+        	fill: #ededed;
         }
 
         .syntax--source .syntax--entity.syntax--name.syntax--tag,
         .syntax--source .syntax--punctuation.syntax--tag {
-        	fill: #96CBFE;
+        	fill: #96cbfe;
         }
 
         .syntax--source .syntax--entity.syntax--other.syntax--attribute-name {
-        	fill: #FF73FD;
+        	fill: #ff73fd;
         }
 
         .syntax--entity.syntax--other.syntax--attribute-name {
-        	fill: #FF73FD;
+        	fill: #ff73fd;
         }
 
         .syntax--entity.syntax--name.syntax--tag.syntax--namespace,
         .syntax--entity.syntax--other.syntax--attribute-name.syntax--namespace {
-        	fill: #E18964;
+        	fill: #e18964;
         }
 
         .syntax--meta.syntax--preprocessor.syntax--c {
-        	fill: #8996A8;
+        	fill: #8996a8;
         }
 
         .syntax--meta.syntax--preprocessor.syntax--c .syntax--keyword {
-        	fill: #AFC4DB;
+        	fill: #afc4db;
         }
 
         .syntax--meta.syntax--cast {
@@ -175,58 +175,58 @@
         .syntax--meta.syntax--tag .syntax--entity,
         .syntax--meta.syntax--tag > .syntax--punctuation,
         .syntax--meta.syntax--tag.syntax--inline .syntax--entity {
-        	fill: #FF73FD;
+        	fill: #ff73fd;
         }
 
         .syntax--meta.syntax--tag .syntax--name,
         .syntax--meta.syntax--tag.syntax--inline .syntax--name,
         .syntax--meta.syntax--tag > .syntax--punctuation {
-        	fill: #96CBFE;
+        	fill: #96cbfe;
         }
 
         .syntax--meta.syntax--selector.syntax--css .syntax--entity.syntax--name.syntax--tag {
         	text-decoration: underline;
-        	fill: #96CBFE;
+        	fill: #96cbfe;
         }
 
         .syntax--meta.syntax--selector.syntax--css .syntax--entity.syntax--other.syntax--attribute-name.syntax--tag.syntax--pseudo-class {
-        	fill: #8F9D6A;
+        	fill: #8f9d6a;
         }
 
         .syntax--meta.syntax--selector.syntax--css .syntax--entity.syntax--other.syntax--attribute-name.syntax--id {
-        	fill: #8B98AB;
+        	fill: #8b98ab;
         }
 
         .syntax--meta.syntax--selector.syntax--css .syntax--entity.syntax--other.syntax--attribute-name.syntax--class {
-        	fill: #62B1FE;
+        	fill: #62B1fe;
         }
 
         .syntax--meta.syntax--property-group .syntax--support.syntax--constant.syntax--property-value.syntax--css,
         .syntax--meta.syntax--property-value .syntax--support.syntax--constant.syntax--property-value.syntax--css {
-        	fill: #F9EE98;
+        	fill: #f9ee98;
         }
 
         .syntax--meta.syntax--preprocessor.syntax--at-rule .syntax--keyword.syntax--control.syntax--at-rule {
-        	fill: #8693A5;
+        	fill: #8693a5;
         }
 
         .syntax--meta.syntax--property-value .syntax--support.syntax--constant.syntax--named-color.syntax--css,
         .syntax--meta.syntax--property-value .syntax--constant {
-        	fill: #87C38A;
+        	fill: #87c38a;
         }
 
         .syntax--meta.syntax--constructor.syntax--argument.syntax--css {
-        	fill: #8F9D6A;
+        	fill: #8F9d6a;
         }
 
         .syntax--meta.syntax--diff,
         .syntax--meta.syntax--diff.syntax--header {
-        	fill: #F8F8F8;
-        	background-color: #0E2231;
+        	fill: #f8f8f8;
+        	background-color: #0e2231;
         }
 
         .syntax--meta.syntax--separator {
-        	fill: #60A633;
+        	fill: #60a633;
         	background-color: #242424;
         }
 
@@ -289,83 +289,83 @@
         }
     </style>
     <rect fill="#3d3d3d" width="100%" height="100%" />
-    <text class="code" x="0" y="0" transform="matrix(1.00,-0.07,0.57,0.96,0,0)" xml:space="preserve">
+    <text class="code" x="0" y="0" transform="matrix(1.00,-0.07,0.57,0.96,0,0)">
       <animate attributeType="XML" attributeName="y"
-      values="0;-1700;0" dur="2400s" repeatCount="indefinite"/>
+      values="0;-1800;0" dur="2400s" repeatCount="indefinite" />
       <tspan dy="1.5em" x="10" class="syntax--comment"># frozen_string_literal: true</tspan>
       <tspan dy="1.0em" x="10">​</tspan>
       <tspan dy="1.5em" x="10"><tspan class="syntax--keyword">module</tspan> <tspan class="syntax--entity syntax--name syntax--type">SearchableConcern</tspan></tspan>
-      <tspan dy="1.5em" x="10">  <tspan class="syntax--support syntax--constant">extend</tspan> <tspan class="syntax--entity syntax--name syntax--type">ActiveSupport::Concern</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;<tspan class="syntax--support syntax--constant">extend</tspan> <tspan class="syntax--entity syntax--name syntax--type">ActiveSupport::Concern</tspan></tspan>
       <tspan dy="1.5em" x="10"><tspan dy="1.5em" x="10">​</tspan></tspan>
-      <tspan dy="1.5em" x="10">  <tspan class="syntax--variable">SEARCHABLE_FIELD_GROUPS</tspan> = %i[</tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--constant">boolean_search_fields</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--constant">date_search_fields</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--constant">enum_search_fields</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--constant">fulltext_search_fields</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--constant">join_search_fields</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--constant">other_search_fields</tspan></tspan>
-      <tspan dy="1.5em" x="10">  ].<tspan class="syntax--support syntax--constant">freeze</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;<tspan class="syntax--variable">SEARCHABLE_FIELD_GROUPS</tspan> = %i[</tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--constant">boolean_search_fields</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--constant">date_search_fields</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--constant">enum_search_fields</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--constant">fulltext_search_fields</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--constant">join_search_fields</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--constant">other_search_fields</tspan></tspan>
+      <tspan dy="1.5em" x="10"> &#160;&#160;].<tspan class="syntax--support syntax--constant">freeze</tspan></tspan>
       <tspan dy="1.5em" x="10"><tspan dy="1.5em" x="10">​</tspan></tspan>
-      <tspan dy="1.5em" x="10">  <tspan class="syntax--support syntax--constant">included</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">def</tspan> <tspan class="syntax--variable">self</tspan>.<tspan class="syntax--support syntax--constant">boolean_attributes</tspan>(attributes = [])</tspan>
-      <tspan dy="1.5em" x="10">      singleton_class.<tspan class="syntax--support syntax--constant">instance_eval</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
-      <tspan dy="1.5em" x="10">        <tspan class="syntax--support syntax--constant">define_method</tspan>(<tspan class="syntax--constant">:boolean_search_fields</tspan>) <tspan class="syntax--keyword">do</tspan></tspan>
-      <tspan dy="1.5em" x="10">          attributes</tspan>
-      <tspan dy="1.5em" x="10">        <tspan class="syntax--keyword">end</tspan></tspan>
-      <tspan dy="1.5em" x="10">      <tspan class="syntax--keyword">end</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;<tspan class="syntax--support syntax--constant">included</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">def</tspan> <tspan class="syntax--variable">self</tspan>.<tspan class="syntax--support syntax--constant">boolean_attributes</tspan>(attributes = [])</tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;singleton_class.<tspan class="syntax--support syntax--constant">instance_eval</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--support syntax--constant">define_method</tspan>(<tspan class="syntax--constant">:boolean_search_fields</tspan>) <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;attributes</tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
       <tspan dy="1.5em" x="10"><tspan dy="1.5em" x="10">​</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">def</tspan> <tspan class="syntax--variable">self</tspan>.<tspan class="syntax--support syntax--constant">date_attributes</tspan>(attributes = [])</tspan>
-      <tspan dy="1.5em" x="10">      singleton_class.<tspan class="syntax--support syntax--constant">instance_eval</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
-      <tspan dy="1.5em" x="10">        <tspan class="syntax--support syntax--constant">define_method</tspan>(<tspan class="syntax--constant">:date_search_fields</tspan>) <tspan class="syntax--keyword">do</tspan></tspan>
-      <tspan dy="1.5em" x="10">          attributes</tspan>
-      <tspan dy="1.5em" x="10">        <tspan class="syntax--keyword">end</tspan></tspan>
-      <tspan dy="1.5em" x="10">      <tspan class="syntax--keyword">end</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">def</tspan> <tspan class="syntax--variable">self</tspan>.<tspan class="syntax--support syntax--constant">date_attributes</tspan>(attributes = [])</tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;singleton_class.<tspan class="syntax--support syntax--constant">instance_eval</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--support syntax--constant">define_method</tspan>(<tspan class="syntax--constant">:date_search_fields</tspan>) <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;attributes</tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
       <tspan dy="1.5em" x="10"><tspan dy="1.5em" x="10">​</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">def</tspan> <tspan class="syntax--variable">self</tspan>.<tspan class="syntax--support syntax--constant">enum_attributes</tspan>(attributes = [])</tspan>
-      <tspan dy="1.5em" x="10">      singleton_class.<tspan class="syntax--support syntax--constant">instance_eval</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
-      <tspan dy="1.5em" x="10">        <tspan class="syntax--support syntax--constant">define_method</tspan>(<tspan class="syntax--constant">:enum_search_fields</tspan>) <tspan class="syntax--keyword">do</tspan></tspan>
-      <tspan dy="1.5em" x="10">          attributes</tspan>
-      <tspan dy="1.5em" x="10">        <tspan class="syntax--keyword">end</tspan></tspan>
-      <tspan dy="1.5em" x="10">      <tspan class="syntax--keyword">end</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">def</tspan> <tspan class="syntax--variable">self</tspan>.<tspan class="syntax--support syntax--constant">enum_attributes</tspan>(attributes = [])</tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;singleton_class.<tspan class="syntax--support syntax--constant">instance_eval</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--support syntax--constant">define_method</tspan>(<tspan class="syntax--constant">:enum_search_fields</tspan>) <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;attributes</tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
       <tspan dy="1.5em" x="10"><tspan dy="1.5em" x="10">​</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">def</tspan> <tspan class="syntax--variable">self</tspan>.<tspan class="syntax--support syntax--constant">fulltext_attributes</tspan>(attributes = [])</tspan>
-      <tspan dy="1.5em" x="10">      singleton_class.<tspan class="syntax--support syntax--constant">instance_eval</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
-      <tspan dy="1.5em" x="10">        <tspan class="syntax--support syntax--constant">define_method</tspan>(<tspan class="syntax--constant">:fulltext_search_fields</tspan>) <tspan class="syntax--keyword">do</tspan></tspan>
-      <tspan dy="1.5em" x="10">          attributes</tspan>
-      <tspan dy="1.5em" x="10">        <tspan class="syntax--keyword">end</tspan></tspan>
-      <tspan dy="1.5em" x="10">      <tspan class="syntax--keyword">end</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">def</tspan> <tspan class="syntax--variable">self</tspan>.<tspan class="syntax--support syntax--constant">fulltext_attributes</tspan>(attributes = [])</tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;singleton_class.<tspan class="syntax--support syntax--constant">instance_eval</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--support syntax--constant">define_method</tspan>(<tspan class="syntax--constant">:fulltext_search_fields</tspan>) <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;attributes</tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
       <tspan dy="1.5em" x="10"><tspan dy="1.5em" x="10">​</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">def</tspan> <tspan class="syntax--variable">self</tspan>.<tspan class="syntax--support syntax--constant">join_attributes</tspan>(attributes = [])</tspan>
-      <tspan dy="1.5em" x="10">      singleton_class.<tspan class="syntax--support syntax--constant">instance_eval</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
-      <tspan dy="1.5em" x="10">        <tspan class="syntax--support syntax--constant">define_method</tspan>(<tspan class="syntax--constant">:join_search_fields</tspan>) <tspan class="syntax--keyword">do</tspan></tspan>
-      <tspan dy="1.5em" x="10">          attributes</tspan>
-      <tspan dy="1.5em" x="10">        <tspan class="syntax--keyword">end</tspan></tspan>
-      <tspan dy="1.5em" x="10">      <tspan class="syntax--keyword">end</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">def</tspan> <tspan class="syntax--variable">self</tspan>.<tspan class="syntax--support syntax--constant">join_attributes</tspan>(attributes = [])</tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;singleton_class.<tspan class="syntax--support syntax--constant">instance_eval</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--support syntax--constant">define_method</tspan>(<tspan class="syntax--constant">:join_search_fields</tspan>) <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;attributes</tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
       <tspan dy="1.5em" x="10"><tspan dy="1.5em" x="10">​</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">def</tspan> <tspan class="syntax--variable">self</tspan>.<tspan class="syntax--support syntax--constant">other_attributes</tspan>(attributes = [])</tspan>
-      <tspan dy="1.5em" x="10">      singleton_class.<tspan class="syntax--support syntax--constant">instance_eval</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
-      <tspan dy="1.5em" x="10">        <tspan class="syntax--support syntax--constant">define_method</tspan>(<tspan class="syntax--constant">:other_search_fields</tspan>) <tspan class="syntax--keyword">do</tspan></tspan>
-      <tspan dy="1.5em" x="10">          attributes</tspan>
-      <tspan dy="1.5em" x="10">        <tspan class="syntax--keyword">end</tspan></tspan>
-      <tspan dy="1.5em" x="10">      <tspan class="syntax--keyword">end</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">def</tspan> <tspan class="syntax--variable">self</tspan>.<tspan class="syntax--support syntax--constant">other_attributes</tspan>(attributes = [])</tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;singleton_class.<tspan class="syntax--support syntax--constant">instance_eval</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--support syntax--constant">define_method</tspan>(<tspan class="syntax--constant">:other_search_fields</tspan>) <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;attributes</tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
       <tspan dy="1.5em" x="10"><tspan dy="1.5em" x="10">​</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--comment"># Add <tspan class="syntax--keyword">def</tspan>ault accessors</tspan></tspan>
-      <tspan dy="1.5em" x="10">    SEARCHABLE_FIELD_GROUPS.<tspan class="syntax--support syntax--constant">each</tspan> <tspan class="syntax--keyword">do</tspan> |field_group|</tspan>
-      <tspan dy="1.5em" x="10">      next if <tspan class="syntax--support syntax--constant">respond_to?</tspan> field_group</tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--comment"># Add <tspan class="syntax--keyword">def</tspan>ault accessors</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;SEARCHABLE_FIELD_GROUPS.<tspan class="syntax--support syntax--constant">each</tspan> <tspan class="syntax--keyword">do</tspan> |field_group|</tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;next if <tspan class="syntax--support syntax--constant">respond_to?</tspan> field_group</tspan>
       <tspan dy="1.5em" x="10"><tspan dy="1.5em" x="10">​</tspan></tspan>
-      <tspan dy="1.5em" x="10">      singleton_class.<tspan class="syntax--support syntax--constant"><tspan class="syntax--support syntax--constant">instance_eval</tspan></tspan> <tspan class="syntax--keyword">do</tspan></tspan>
-      <tspan dy="1.5em" x="10">        <tspan class="syntax--support syntax--constant"><tspan class="syntax--support syntax--constant">define_method</tspan>(field_group)</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
-      <tspan dy="1.5em" x="10">          []</tspan>
-      <tspan dy="1.5em" x="10">        <tspan class="syntax--keyword">end</tspan></tspan>
-      <tspan dy="1.5em" x="10">      <tspan class="syntax--keyword">end</tspan></tspan>
-      <tspan dy="1.5em" x="10">    <tspan class="syntax--keyword">end</tspan></tspan>
-      <tspan dy="1.5em" x="10">  <tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;singleton_class.<tspan class="syntax--support syntax--constant"><tspan class="syntax--support syntax--constant">instance_eval</tspan></tspan> <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--support syntax--constant"><tspan class="syntax--support syntax--constant">define_method</tspan>(field_group)</tspan> <tspan class="syntax--keyword">do</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;[]</tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
+      <tspan dy="1.5em" x="10">&#160;&#160;<tspan class="syntax--keyword">end</tspan></tspan>
       <tspan dy="1.5em" x="10">end</tspan>
     </text>
 </svg>
